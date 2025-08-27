@@ -1,5 +1,11 @@
 # Laravel Module Hooks
 
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Latest Version on
+Packagist](https://img.shields.io/packagist/v/alizharb/laravel-meta.svg?style=flat-square)](https://packagist.org/packages/alizharb/laravel-meta)
+[![Total
+Downloads](https://img.shields.io/packagist/dt/alizharb/laravel-meta.svg?style=flat-square)](https://packagist.org/packages/alizharb/laravel-meta)s
+
 **Laravel Module Hooks** is a fully-featured, modular hook system for Laravel, designed to make your modules easily extensible and decoupled.  
 It allows developers to register actions, filters, and short-circuiting hooks using PHP callables, class methods, invokable classes, or PHP 8 attributes.  
 The package also supports **widget hooks** that render Blade views, caching, auto-discovery, and convenient Blade directives.
