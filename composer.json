@@ -1,0 +1,40 @@
+{
+  "name": "alizharb/laravel-modules-hooks",
+  "description": "A modular hook system for Laravel modules with Blade directives, auto-discovery, and widget support",
+  "keywords": [
+    "laravel-modules-hooks",
+    "laravel-modules",
+    "AlizHarb"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ali Harb",
+      "email": "harbzali@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "AlizHarb\\LaravelModuleHooks\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^8.2",
+    "illuminate/support": "^12.0",
+    "nwidart/laravel-modules": "^12.0",
+    "spatie/laravel-package-tools": "^1.16"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "AlizHarb\\LaravelModuleHooks\\LaravelModuleHooksServiceProvider"
+      ],
+      "aliases": {
+        "Hooks": "AlizHarb\\LaravelModuleHooks\\Facades\\Hooks"
+      }
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}

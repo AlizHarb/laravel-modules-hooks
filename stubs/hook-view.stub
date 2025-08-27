@@ -1,0 +1,3 @@
+<div class="hook-{{hook}}">
+    <!-- {{hook}} widget content -->
+</div>

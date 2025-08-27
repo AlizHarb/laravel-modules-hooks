@@ -1,0 +1,16 @@
+<?php
+
+namespace Modules\{{module}}\Hooks;
+
+use AlizHarb\LaravelModuleHooks\Attributes\Hook;
+use AlizHarb\LaravelModuleHooks\Support\HookContext;
+
+class {{class}}
+{
+    #[Hook('{{hook}}', priority: 50)]
+    public function handle($payload, HookContext $ctx)
+    {
+        // TODO: Implement hook logic
+        return null;
+    }
+}
